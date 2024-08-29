@@ -1,0 +1,16 @@
+appName: RiceGo
+environment: development
+apiVersion: v1
+server:
+  host: 0.0.0.0
+  port: 3000
+database:
+  # if you use docker, change this IP to your local IP (check with ipconfig in windows or ifconfix in *nix)
+  dbHost: postgresdb
+  # if not use docker use this setting
+  # dbHost: localhost
+  dbPort: 5432
+  username: postgres
+  password: postgres
+  dbName: rice
+  schemaName: rice
