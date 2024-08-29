@@ -15,17 +15,17 @@ GoFiber Boilerplate was made by using several tools, such as:
 
 ## Directory Structure
 1. app
-   All of modules shipped in here. These modules should rely on a file in Domain directory (Abstraction). Each modules contains 3 package, such as: Delivery, Usecase and Repository.
-   Delivery is controller-like in MVC Pattern. It has responsibility to handle all of requests.
-   Usecase is acted like service. It would communicate with Delivery and Repository Layer. All logics shipped in here.
-   Repository has responsibility to communicate with database, such as: start transaction, inserting row(s), update data, (soft) delete data, selecting data, etc.
+   - All of modules shipped in here. These modules should rely on a file in Domain directory (Abstraction). Each modules contains 3 package, such as: Delivery, Usecase and Repository.
+   - Delivery is controller-like in MVC Pattern. It has responsibility to handle all of requests.
+   - Usecase is acted like service. It would communicate with Delivery and Repository Layer. All logics shipped in here.
+   - Repository has responsibility to communicate with database, such as: start transaction, inserting row(s), update data, (soft) delete data, selecting data, etc.
 3. configs
-   All of configurations shipped in here, DB Config & App Config
+   - All of configurations shipped in here, DB Config & App Config
 4. domain
-   Domain is same as Model in MVC Pattern. All of models rely here
+   - Domain is same as Model in MVC Pattern. All of models rely here
 5. internal
-   All of helpers file shipped in here
+   - All of helpers file shipped in here
 6. routes
-   Routing are declared in this directory
+   - Routing are declared in this directory
 7. server
-   This directory contains file that will set you up a restful API server
+   - This directory contains file that will set you up a restful API server
